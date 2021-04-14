@@ -1,0 +1,53 @@
+2021-04-14 09:50:59,822 INFO  [SoapUI] Adding [E:\Projects\SoapUITest\ext\mysql-connector-java-8.0.22.jar] to extensions classpath
+2021-04-14 09:51:00,853 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Lenovo\soapui-settings.xml]
+2021-04-14 09:51:05,574 INFO  [Reflections] Reflections took 323 ms to scan 2 urls, producing 75 keys and 160 values 
+2021-04-14 09:51:05,785 INFO  [Reflections] Reflections took 30 ms to scan 1 urls, producing 46 keys and 344 values 
+2021-04-14 09:51:05,811 INFO  [Reflections] Reflections took 13 ms to scan 1 urls, producing 11 keys and 17 values 
+2021-04-14 09:51:05,852 INFO  [Reflections] Reflections took 11 ms to scan 1 urls, producing 13 keys and 21 values 
+2021-04-14 09:51:06,368 INFO  [Reflections] Reflections took 357 ms to scan 13 urls, producing 341 keys and 1458 values 
+2021-04-14 09:51:06,398 INFO  [PluginManager] Adding plugin from [C:\Users\Lenovo\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2021-04-14 09:51:06,398 INFO  [PluginManager] Adding plugin from [C:\Users\Lenovo\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2021-04-14 09:51:06,500 INFO  [Reflections] Reflections took 75 ms to scan 2 urls, producing 75 keys and 160 values 
+2021-04-14 09:51:07,043 INFO  [Reflections] Reflections took 502 ms to scan 13 urls, producing 341 keys and 1458 values 
+2021-04-14 09:51:08,547 INFO  [Reflections] Reflections took 2013 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-04-14 09:51:08,630 INFO  [PluginManager] Adding plugin from [C:\Users\Lenovo\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar]
+2021-04-14 09:51:08,663 INFO  [Reflections] Reflections took 25 ms to scan 1 urls, producing 46 keys and 344 values 
+2021-04-14 09:51:08,754 INFO  [Reflections] Reflections took 1621 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-04-14 09:51:08,845 INFO  [PluginManager] Adding plugin from [C:\Users\Lenovo\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2021-04-14 09:51:08,860 INFO  [Reflections] Reflections took 9 ms to scan 1 urls, producing 11 keys and 17 values 
+2021-04-14 09:51:09,498 INFO  [Reflections] Reflections took 827 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-04-14 09:51:09,612 INFO  [PluginManager] Adding plugin from [C:\Users\Lenovo\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2021-04-14 09:51:09,649 INFO  [Reflections] Reflections took 782 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-04-14 09:51:09,652 INFO  [Reflections] Reflections took 7 ms to scan 1 urls, producing 13 keys and 21 values 
+2021-04-14 09:51:10,201 INFO  [Reflections] Reflections took 542 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-04-14 09:51:10,217 INFO  [PluginManager] 5 plugins loaded in 3819 ms
+2021-04-14 09:51:10,217 INFO  [DefaultSoapUICore] All plugins loaded
+2021-04-14 09:51:13,869 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Lenovo/Desktop/Finistra/AutomationSoup-soapui-project_extent.xml]
+2021-04-14 09:51:16,566 INFO  [log] call add emp and set the value
+2021-04-14 09:51:17,939 INFO  [log] Response added succesfully <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <ns:addEmployeeResponse xmlns:ns="http://sample.com/reservation/guest/types">
+         <ns:return>true</ns:return>
+      </ns:addEmployeeResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
+2021-04-14 09:51:17,948 INFO  [log] assert done
+2021-04-14 09:51:17,948 INFO  [log] Call get Emp details from name of add Emp
+2021-04-14 09:51:18,038 INFO  [log] GetEmp Details: <soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <ns:getEmployeeDetailsResponse xmlns:ns="http://sample.com/reservation/guest/types">
+         <ns:return xsi:type="ns:Employee" xmlns:ax21="http://exception.reservation.sample.com/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ns:age>34</ns:age>
+            <ns:department>Auto</ns:department>
+            <ns:id>34</ns:id>
+            <ns:name>Tom1</ns:name>
+         </ns:return>
+      </ns:getEmployeeDetailsResponse>
+   </soapenv:Body>
+</soapenv:Envelope> Successfully
+2021-04-14 09:51:18,046 INFO  [log] Call delete Emp from response of get Empname: Tom1
+2021-04-14 09:51:18,269 INFO  [log] delete_name: Tom1 successfully
+2021-04-14 09:51:20,597 WARN  [Tools] Could not delete temporary directory C:\Users\Lenovo\AppData\Local\Temp\206d64a0-35be-46b6-a21a-1d0960b5611b
+2021-04-14 09:51:20,598 WARN  [Tools] Could not delete temporary directory C:\Users\Lenovo\AppData\Local\Temp\7e41cffa-a3e0-4ed1-be32-b11ef816e80f
+2021-04-14 09:51:20,601 WARN  [Tools] Could not delete temporary directory C:\Users\Lenovo\AppData\Local\Temp\15dc4ee3-4d6d-4f83-a151-0ff54669f976
+2021-04-14 09:51:20,602 WARN  [Tools] Could not delete temporary directory C:\Users\Lenovo\AppData\Local\Temp\5784320e-19c7-408a-b7e9-3a64f54acc4e
